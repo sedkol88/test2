@@ -1,0 +1,211 @@
+/* fonts */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  height: 1319px;
+  margin: 0 auto;
+}
+
+.Rectangle-1 {
+  width: 830px;
+  height: 1319px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-intro {
+  width: 400px;
+  height: 230px;
+  flex-shrink: 0;
+  margin-top: 102px;
+  margin-left: 88px;
+}
+.text-intro_h4 {
+  color: #000;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.text-intro_h1 {
+  display: flex;
+  width: 342px;
+  height: 50px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 45px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.text-intro_p {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #595959;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 24px;
+}
+
+.Projects {
+  width: 485px;
+  height: 107px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-left: 88px;
+}
+.Projects_h2 {
+  color: #000;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.Projects_ol {
+  color: #000;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 16px;
+}
+.Projects_span {
+  color: #595959;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Work-Experience1 {
+  width: 525px;
+  height: 213px;
+  flex-shrink: 0;
+  margin-top: 51px;
+  margin-left: 88px;
+}
+.Work-Experience1_h2 {
+  color: #000;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.Work-Experience1_h3 {
+  color: #000;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.Work-Experience1_p {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-family: Montserrat;
+}
+.Work-Experience1_ul {
+  color: #595959;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 16px;
+}
+.Work-Experience1_span {
+  display: flex;
+  width: 509px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-weight: 400;
+}
+
+h1 {
+  display: flex;
+  width: 342px;
+  height: 50px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 45px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.left {
+  width: 370px;
+  height: 1319px;
+  flex-shrink: 0;
+  background: #1e2939;
+}
+
+img {
+  width: 370px;
+  height: 354px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-top: 40px;
+}
+
+.Contacts {
+  width: 183px;
+  height: 83px;
+  flex-shrink: 0;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.Contacts_h2 {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.Contacts_p {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+.Contacts_span {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
+.Tech-Skills {
+  width: 121px;
+  height: 203px;
+  flex-shrink: 0;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.Tech-Skills_h2 {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.Tech-Skills_ul {
+  color: #fb6d3a;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 16px;
+}
+.Tech-Skills_span {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 24px;
+  font-weight: 400;
+}
